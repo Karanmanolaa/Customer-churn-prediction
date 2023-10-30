@@ -38,6 +38,9 @@ Solutions :
 
   # 5 - Visualizations:
 
+
+![download corr](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/7d81b86f-b82d-4bf0-b1eb-cda87cae338a)
+
   ![download 1](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/3473d1d8-7ee8-4ee5-a1dd-ea7cc575c740)
 
 ![download 2](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/4042efc0-8a88-43d5-9a2e-93cf63fb44a7)
@@ -68,7 +71,7 @@ Solutions :
 
 
 
-![download corr](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/7d81b86f-b82d-4bf0-b1eb-cda87cae338a)
+
 
 
 
