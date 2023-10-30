@@ -35,5 +35,42 @@ Solutions :
 
   # 5 - Visualizations:
 
-  ![Image](https://github.com/Karanmanolaa/Sentiment-Analysis-Of-Threads-App-Reviews-/blob/main/images/download%202.png)
+  ![download 1](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/3473d1d8-7ee8-4ee5-a1dd-ea7cc575c740)
+
+![download 2](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/4042efc0-8a88-43d5-9a2e-93cf63fb44a7)
+
+
+![download 4](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/0da4bf98-5119-44bd-a383-38ac80f07ef8)
+
+
+![download 5](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/efe7a44e-9eab-4f99-a1b4-368ccdeeafea)
+
+
+![download 6](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/7a1a0da7-aaa9-4180-9534-a75ecdd5bbc5)
+
+
+![download 7](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/e70d41fd-01ab-436e-8f56-efdd8de9b6b5)
+
+
+![download 8](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/5a8c0219-346f-4cea-8ce5-98f944c4277a)
+
+
+![download 9](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/6df2114f-764b-410a-a129-73549053b746)
+
+
+![download 10](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/9203dd40-c0ab-46b0-b61a-d0fd3e48e6c3)
+
+
+![download 11](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/f838dd7d-31a0-4d67-b5fe-c841957e650d)
+
+
+
+![download corr](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/7d81b86f-b82d-4bf0-b1eb-cda87cae338a)
+
+
+
+
+
+
+
   
