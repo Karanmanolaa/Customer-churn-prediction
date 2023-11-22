@@ -1,5 +1,8 @@
 # Project 3 - Customer-churn-prediction
 
+Explore the live application: [Customer churn Prediction](https://customer-churn-0nsq.onrender.com/)
+
+
 ![Customer-churn-rate-1024x683](https://github.com/Karanmanolaa/Customer-churn-prediction/assets/144649975/86508d72-08b4-4d3b-995d-1898f629d992)
 
 Explore the live application: [Customer churn Prediction](https://customer-churn-0nsq.onrender.com/)
