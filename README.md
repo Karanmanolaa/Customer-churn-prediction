@@ -32,11 +32,13 @@ In this project i have used python programming language and its libraries - scik
 
 # 4 - Challenges and Solutions:
 Challenges:
+
 - Class Imbalance: In customer churn prediction, it's common to have an imbalanced dataset, where the number of customers who stayed far exceeds those who left.
 This imbalance can lead to model bias,where the model may have difficulty in correctly identifying the minority class (churned customers).
 - Problem faced while deployment due to different version of dependencies.
 
 Solutions :
+
 -Utilized models like Random Forest (with tuned hyperparameters) that are robust and less prone to overfitting, making the model more reliable when dealing with imbalanced datasets.
 - To overcome deployment challenges related to different version of dependencies , we adopted Docker for containerization .
 
