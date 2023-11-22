@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+</head>
+<body>
+    <h1>Customer Churn Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="credit_score">Credit Score:</label>
+        <input type="number" name="credit_score" required><br>
+
+        <label for="geography">Geography:</label>
+        <select name="geography" required>
+            <option value="0">France</option>
+            <option value="1">Spain</option>
+            <option value="2">Germany</option>
+        </select><br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" required>
+            <option value="0">Male</option>
+            <option value="1">Female</option>
+        </select><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" required><br>
+
+        <label for="tenure">Tenure:</label>
+        <input type="number" name="tenure" required><br>
+
+        <label for="balance">Balance:</label>
+        <input type="number" name="balance" required><br>
+
+        <label for="num_of_products">Number of Products:</label>
+        <input type="number" name="num_of_products" required><br>
+
+        <label for="has_cr_card">Has Credit Card:</label>
+        <select name="has_cr_card" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select><br>
+
+        <label for="is_active_member">Is Active Member:</label>
+        <select name="is_active_member" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select><br>
+
+        <label for="estimated_salary">Estimated Salary:</label>
+        <input type="number" name="estimated_salary" required><br>
+
+        <label for="satisfaction_score">Satisfaction Score:</label>
+        <input type="number" name="satisfaction_score" required><br>
+
+        <label for="card_type">Card Type:</label>
+        <select name="card_type" required>
+            <option value="0">Diamond</option>
+            <option value="1">Gold</option>
+            <option value="2">Platinum</option>
+            <option value="3">Silver</option>
+        </select><br>
+
+        <label for="point_earned">Point Earned:</label>
+        <input type="number" name="point_earned" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if result %}
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>

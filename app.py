@@ -1,39 +1,33 @@
 import pickle
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request
 
-# Create a Flask app
 app = Flask(__name__)
 
-# Load the pickled model
-with open("rf_model.pkl", "rb") as model_file:
-    model = pickle.load(model_file)
+# Load the trained model from the pickle file
+with open('Classifier.pkl', 'rb') as model_file:
+    classifier = pickle.load(model_file)
 
-# Define a route for the home page
-@app.route("/")
+# Define the home route
+@app.route('/')
 def home():
-    return render_template("index.html")
+    return render_template('index.html')
 
 # Define a route to handle predictions
-@app.route("/predict", methods=["POST"])
+@app.route('/predict', methods=['POST'])
 def predict():
-    try:
-        # Get user input from the HTML form
-        features = [float(request.form[field]) for field in ["credit_score", "geography", "gender", "age", "tenure", "balance", "num_of_products", "has_cr_card", "is_active_member", "estimated_salary"]]
+    if request.method == 'POST':
+        data = request.form.to_dict()
+        features = [int(data['credit_score']), float(data['geography']), float(data['gender']),
+                    int(data['age']), int(data['tenure']), float(data['balance']),
+                    int(data['num_of_products']), int(data['has_cr_card']),
+                    int(data['is_active_member']), float(data['estimated_salary']),
+                    int(data['satisfaction_score']), float(data['card_type']),
+                    int(data['point_earned'])]
 
-        # Make a prediction using the loaded model
-        prediction = model.predict([features])[0]
+        # Make a prediction 
+        prediction = classifier.predict([features])
 
-        # Determine the churn label
-        churn_label = "Churn" if prediction == 1 else "Not Churn"
+        return render_template('index.html', result=f'Churn Prediction: {prediction[0]}')
 
-        # Render the result page with the prediction
-        return render_template("result.html", prediction=churn_label)
-
-    except Exception as e:
-        # Handle exceptions, such as invalid input
-        error_message = f"An error occurred: {str(e)}"
-        return render_template("result.html", prediction=error_message)
-
-# Run the Flask app
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True,host="0.0.0.0", port=5000)
